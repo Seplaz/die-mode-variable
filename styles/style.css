@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  block-size: 100dvb;
+}
+
+.page__title {
+  font-family: 'Bodoni Moda', serif;
+  font-size: clamp(64px, 10vw, 96px);
+  animation: weight 3s infinite ease-in-out alternate;
+  font-variation-settings: 'opsz' 6;
+}
+
+@keyframes weight {
+  from {
+    font-variation-settings: 'wght' 0;
+  }
+
+  to {
+    font-variation-settings: 'wght' 1000;
+  }
+}
+
+.page__description {
+  font-family: 'Bodoni Moda', serif;
+  font-size: clamp(14px, 2.5vw, 24px);
+  font-variation-settings: 'opsz' 6;
+}
