@@ -18,7 +18,7 @@
   display: flex;
   font-family: 'Bodoni Moda', serif;
   font-size: clamp(64px, 10vw, 96px);
-  font-variation-settings: 'opsz' 6;
+  font-variation-settings: 'wght' 0, 'opsz' 6;
 }
 
 .page__title p {
